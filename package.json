@@ -1,0 +1,22 @@
+{
+  "name": "smart-meeting-memory-agent",
+  "version": "1.0.0",
+  "description": "AI-Powered Smart Meeting Memory Agent using Hindsight and Gemini API",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client && npm run build --prefix client && npm run build --prefix server",
+    "build": "npm run build --prefix client && npm run build --prefix server",
+    "start": "node server/dist/index.js",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "keywords": [
+    "ai",
+    "hindsight",
+    "meeting-memory",
+    "gemini-api",
+    "react",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC"
+}
